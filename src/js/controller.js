@@ -127,7 +127,7 @@ const controlAddRecipe = async function (newRecipe) {
 };
 
 const newFeature = function () {
-  console.log('Welcome to applications');
+  console.log('Welcome to application!');
 };
 // publisher subscriber pattern
 const init = function () {

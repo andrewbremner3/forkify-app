@@ -29,6 +29,7 @@ export const AJAX = async function (url, uploadData = undefined) {
   }
 };
 
+// Function from udemy Q&A section to fix the fraction issues
 export const numberToFraction = function (amount) {
   // This is a whole number and doesn't need modification.
   if (parseFloat(amount) === parseInt(amount)) {
